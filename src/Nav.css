@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 10vh;    
+    background: #5452F6;
+     
+  }
+  .swap{
+    text-decoration: none;
+    color: white;    
+  }
+  .pool{
+    color: white;
+    text-decoration: none;
+    }
