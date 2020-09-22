@@ -19,7 +19,11 @@
   border: none;
   background:none;  
   color: black;
+  
 }
+/* .selectList:focus{
+  outline: none;
+} */  
 .inputbox{
   background: #ededff;
   border: 2px solid #5452F6;
@@ -56,34 +60,5 @@
   justify-content: space-around;
   align-items: center;
 }
-.singleCard{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color:#5452F6;
-  padding: 10px;
-  margin-top: 50px;
-}
 
-.cardHeading{
-  font-size: 26px;
-  font-weight: 500;
-}
-.cardTitle{
-  font-size: 20px;
-  color:#9F9DFF;
-  font-weight: 300;
-}
-.cardImage{
-  padding: 10px;
-  border: 2px solid #5452F6;
-  border-radius: 20px;
-  height: 100px;
-  width: 100px;
-}
-.shadowBox{
-  padding: 10px;
-  box-shadow: 0 0 10px 5px #e0e0e0;
-  border-radius: 20px;
-  height: 80px;
-}
+

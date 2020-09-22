@@ -21,7 +21,7 @@ function App() {
       <Card 
       heading="Core concept"
       title="Learn and build efficiently "
-      image="./bulb.png"
+      image="./bulb.png"      
       />
      
       <Card 
@@ -38,7 +38,14 @@ function App() {
       heading="Tools"
       title="Learn and build efficiently "
       image="./bulb.png"
-      />
+      />      
+      </div>
+      <div className="cards">
+        <Card
+        height="200px"
+        width="200px"
+        image="./bulb.png"        
+        />
       </div>
     </Router>
   );
